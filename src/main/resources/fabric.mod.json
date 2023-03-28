@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "mccontrolpanelapi",
+  "version": "${version}",
+  "name": "mccontrolpanelapi",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/gmb/mccontrolpanelapi"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mccontrolpanelapi/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "world.tsmk.scattered_leaves.mccontrolpanelapi.client.MccontrolpanelapiClient"
+    ],
+    "main": [
+      "world.tsmk.scattered_leaves.mccontrolpanelapi.Mccontrolpanelapi"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.18",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
